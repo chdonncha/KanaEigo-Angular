@@ -3,7 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass']
+  styleUrls: [
+    "../../node_modules/bootstrap/dist/css/bootstrap.css",
+    './app.component.sass'
+  ]
 })
 export class AppComponent {
   title = 'KanaEigo';
